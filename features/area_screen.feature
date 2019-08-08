@@ -1,5 +1,5 @@
 Feature: User is able to convert area units
-
+  @menu
   Scenario: User is able to dismiss help
     Given I land on help popup
     When I click on Got it button
@@ -14,7 +14,7 @@ Feature: User is able to convert area units
     Then I see "Sq Metre" in From header
     And I see "Sq Kilometre" in To Header
 
-
+  @wip
   Scenario Outline: User is able to convert default units
     Given I click on Got it button
     And I click on Clear button

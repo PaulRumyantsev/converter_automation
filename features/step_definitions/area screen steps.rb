@@ -39,8 +39,9 @@ end
 Then(/^I get "([^"]*)" To field$/) do |value|
   puts("User sees #{value} in result field")
   actual_value = find_element(id:"header_value_to").text
-  puts("Exepted value is #{value}")
-  puts("Actual value is #{actual_value}")
+  if actual_value != value
+    fail("Expected value is #{value}, but Actual value was #{actual_value}")
+  end
 end
 
 

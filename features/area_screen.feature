@@ -36,4 +36,3 @@ Feature: User is able to convert area units
     When I click on From field
     And I press "3" on soft keyboard
     Then I get "<3000000>" To field
-

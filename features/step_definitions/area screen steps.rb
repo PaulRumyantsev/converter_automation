@@ -37,7 +37,6 @@ When(/^I enter "([^"]*)" to From field$/) do |value|
 end
 
 Then(/^I get "([^"]*)" To field$/) do |value|
-  puts("User sees #{value} in result field")
   actual_value = find_element(id:"header_value_to").text
   if actual_value != value
     fail("Expected value is #{value}, but Actual value was #{actual_value}")
@@ -50,6 +49,10 @@ When(/^I click on From field$/) do
 end
 
 And(/^I press "([^"]*)" on soft keyboard$/) do |value|
-  digit = Integer(value)
-  press_keycode 7 + digit
+  digits = value.split("")
+  digits.each do |key|
+    digit = Integer(key)
+    press_keycode 7 + digit
+  end
+
 end

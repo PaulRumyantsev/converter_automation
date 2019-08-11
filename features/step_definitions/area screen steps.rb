@@ -43,3 +43,12 @@ Then(/^I get "([^"]*)" To field$/) do |value|
   puts("Actual value is #{actual_value}")
 end
 
+
+When(/^I click on From field$/) do
+  find_element(id:"header_value_from").click
+end
+
+And(/^I press "([^"]*)" on soft keyboard$/) do |value|
+  digit = Integer(value)
+  press_keycode 7 + digit
+end

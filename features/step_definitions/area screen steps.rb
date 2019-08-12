@@ -16,14 +16,16 @@ end
 
 Then(/^I see "([^"]*)" in From header$/) do |value|
   actual_value = find_element(id:"header_text_unit_from").text
-  puts("Exepted value is #{value}")
-  puts("Actual value is #{actual_value}")
+  if actual_value != value
+    fail("Expected value is #{value}, but Actual value was #{actual_value}")
+  end
 end
 
 And(/^I see "([^"]*)" in To Header$/) do |value|
   actual_value = find_element(id:"header_text_unit_to").text
-  puts("Exepted value is #{value}")
-  puts("Actual value is #{actual_value}")
+  if actual_value != value
+    fail("Expected value is #{value}, but Actual value was #{actual_value}")
+  end
 end
 
 

@@ -10,7 +10,7 @@ Feature: User is able to convert area units
   #  When I click on Got it button
    # Then I land on Area screen
 
-
+  @wip
   Scenario: User is able to swap values
     Given I see "Sq Kilometre" in From header
     And I see "Sq Metre" in To Header
@@ -26,7 +26,7 @@ Feature: User is able to convert area units
 
     Examples:
     |target|result|
-    |1     |1000000|
+    |1     |4000000|
     |2     |2000000|
     |3     |3000000|
 
@@ -37,8 +37,17 @@ Feature: User is able to convert area units
     And I press "3" on soft keyboard
     Then I get "<3000000>" To field
 
-  @wip
-  Scenario:
+
+  Scenario Outline: Hectare
+
     When I select "Hectare" from left column
     Then I see "Hectare" in From header
-    And I get "10000" To field
+    And I click on Clear button
+    And I enter "<target>" to From field
+    Then I get "<result>" To field
+
+    Examples:
+      |target|result|
+      |1     |10000|
+      |2     |2000|
+      |3     |30000|

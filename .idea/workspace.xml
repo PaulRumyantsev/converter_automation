@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b2fca8a-32a0-490a-bc6d-3ad779f0fb99" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaAppiumAutomation/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../JavaAppiumAutomation/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ultimate_converter.apk" afterPath="$PROJECT_DIR$/features/support/ultimate_converter.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/area_screen.feature" afterPath="$PROJECT_DIR$/features/area_screen.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/area screen steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/area screen steps.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,24 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="area_screen.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="area_screen.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/area_screen.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="630">
+              <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding>
-                <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-                <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+                <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+                <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="area screen steps.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="area screen steps.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/area screen steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+            <state relative-caret-position="945">
+              <caret line="63" column="3" lean-forward="true" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -70,8 +71,8 @@
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
         <option value="$APPLICATION_CONFIG_DIR$/rubymine.vmoptions" />
-        <option value="$PROJECT_DIR$/features/area_screen.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/area screen steps.rb" />
+        <option value="$PROJECT_DIR$/features/area_screen.feature" />
       </list>
     </option>
   </component>
@@ -132,8 +133,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,23 +188,26 @@
       <workItem from="1565560657027" duration="421000" />
       <workItem from="1565561083269" duration="5000" />
       <workItem from="1565561143866" duration="428000" />
-      <workItem from="1565561591954" duration="703000" />
+      <workItem from="1565561591954" duration="755000" />
+      <workItem from="1565597992368" duration="195000" />
+      <workItem from="1565598213919" duration="2286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15948000" />
+    <option name="totallyTimeSpent" value="18481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3190272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32761088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5114449" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28146145" sideWeight="0.48855507" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28146145" sideWeight="0.48855507" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -274,8 +278,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -309,8 +313,8 @@
         <state relative-caret-position="540">
           <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -344,8 +348,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -379,8 +383,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -406,8 +410,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -433,8 +437,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -460,8 +464,8 @@
         <state relative-caret-position="240">
           <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -494,8 +498,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -521,8 +525,8 @@
         <state relative-caret-position="240">
           <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -548,8 +552,8 @@
         <state relative-caret-position="240">
           <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -575,8 +579,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -593,8 +597,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -611,8 +615,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -629,8 +633,8 @@
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
           </folding>
         </state>
       </provider>
@@ -689,22 +693,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/area_screen.feature">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/area screen steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-          <folding>
-            <marker date="1565561770366" expanded="true" signature="510:776" ph="Scenario Outline: User is able to convert default units" />
-            <marker date="1565561770366" expanded="true" signature="778:978" ph="Scenario: User is able to use soft keyboard to enter values" />
-          </folding>
+        <state relative-caret-position="945">
+          <caret line="63" column="3" lean-forward="true" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/area screen steps.rb">
+    <entry file="file://$PROJECT_DIR$/features/area_screen.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="630">
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding>
+            <marker date="1565600072184" expanded="true" signature="516:782" ph="Scenario Outline: User is able to convert default units" />
+            <marker date="1565600072184" expanded="true" signature="784:984" ph="Scenario: User is able to use soft keyboard to enter values" />
+          </folding>
         </state>
       </provider>
     </entry>

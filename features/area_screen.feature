@@ -14,7 +14,7 @@ Feature: User is able to convert area units
   @tag
   Scenario: User is able to swap values
     Given I see "Sq Kilometre" in From header
-    And I see "Sq Metre" in To Header
+    And I see "Sq Metr" in To Header
     When I click on Swap button
     Then I see "Sq Metre" in From header
     And I see "Sq Kilometre" in To Header

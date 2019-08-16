@@ -3,5 +3,5 @@ volume: -t @volume --format html --out report.html --format pretty
 tag: -t @tag --format html --out report.html --format pretty
 
 
-any: -t @area, --format html --out report.html --format pretty
-wip_area: -t @tag, --format html --out report.html --format pretty
+any: -t @area,@volume --format html --out report.html --format pretty
+

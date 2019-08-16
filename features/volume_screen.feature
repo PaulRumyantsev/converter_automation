@@ -10,7 +10,7 @@ Feature: User is able to convert Volume units
       When I swipe in menu
       Then I see app menu
 
-    @tag2
+
     Scenario Outline:
       When I swipe in menu
       And I select "<target>" from menu
@@ -19,5 +19,5 @@ Feature: User is able to convert Volume units
       Examples:
       |target|results|
       |Power|Power|
-      |Volume1|Volume|
+      |Volume|Volume|
       |Currency|Currency|

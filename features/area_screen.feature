@@ -23,7 +23,7 @@ Feature: User is able to convert area units
   Scenario Outline: User is able to convert default units
     Given I click on Clear button
     When I enter "<target>" to From field
-    Then I get "<result>" To field
+    Then I get "<result>" in To field
 
     Examples:
     |target|result|
@@ -36,7 +36,7 @@ Feature: User is able to convert area units
     Given I click on Clear button
     When I click on From field
     And I press "3" on soft keyboard
-    Then I get "<3000000>" To field
+    Then I get "<3000000>" in To field
 
 
   Scenario Outline: Hectare
@@ -45,7 +45,7 @@ Feature: User is able to convert area units
     Then I see "Hectare" in From header
     And I click on Clear button
     And I enter "<target>" to From field
-    Then I get "<result>" To field
+    Then I get "<result>" in To field
 
     Examples:
       |target|result|

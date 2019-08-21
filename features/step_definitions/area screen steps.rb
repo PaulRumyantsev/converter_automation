@@ -38,7 +38,7 @@ When(/^I enter "([^"]*)" to From field$/) do |value|
 
 end
 
-Then(/^I get "([^"]*)" To field$/) do |value|
+Then(/^I get "([^"]*)" in To field$/) do |value|
   actual_value = find_element(id:"header_value_to").text
   if actual_value != value
     fail("Expected value is #{value}, but Actual value was #{actual_value}")
